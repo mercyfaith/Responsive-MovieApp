@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie app</title>
+    <link rel="stylesheet" href="./Public/movieapp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+</head>
+<body>
+   <!-- <div class="scroll-container">  --> 
+            <header>
+                <nav class="nav-bar">
+                    <div class="movie-icon"><i class='bx bxs-movie'></i><span class="logo">DaveFlix</span></div>
+                    <div class="links">
+                        <a href="#hero">Home</a>
+                        <a href="#movies">Movies</a>
+                        <a href="#kidsworld">KidsWorld</a>
+                        <a href="#upcoming">Upcoming</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="menu">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </div>
+                    <div class="sign-in-icon"><i class='bx bxs-user'></i></div>
+                </nav>
+            </header>
+            <form action="" class="sign-in-form">
+                <div class="form-wrapper">
+                    <h2>Welcome!</h2>
+                    <div>
+                    <a href="http://mail.google.com/search" target="_blank">
+                        <span><i class='bx bxl-google'></i></span>
+                        <input  readonly ="text" placeholder="Sign in with Google"/>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="http://login.yahoo.com" target="_blank">
+                            <span><i class='bx bx-envelope'></i></span>
+                        <input  readonly ="text" placeholder="Sign in with email">
+                        </a>
+                    </div>
+                </div>    
+                <div><i class='bx bx-x'></i></div>
+            </form>
+                <section id="hero">
+                    <video autoplay loop muted   plays-inline class="back-video" src="./Assets/marvel.mp4"></video>
+                    <video autoplay loop muted   plays-inline class="back-video" src="./Assets/aquaman.mp4"></video>
+                    <video autoplay loop muted   plays-inline class="back-video" src="./Assets/black panther.mp4"></video>
+                    <video autoplay loop  muted   plays-inline class="back-video" src="./Assets/justice league.mp4"></video>
+                    <video autoplay loop muted   plays-inline class="back-video" src="./Assets/spiderman.mp4"></video>
+                    <button id="prev-btn"><</button>
+                    <button id="next-btn">></button>
+                    
+            </section>
+            <section id="movies">
+                <hr>
+                <div class="image-wrapper">
+                    <img src="./Assets/01one.jpeg" alt=""> 
+                    <img src="./Assets/one.jpeg" alt=""> 
+                    <img src="./Assets/two.jpeg" alt=""> 
+                    <img src="./Assets/three.jpeg" alt="">
+                    <img src="./Assets/four.jpeg" alt="">  
+                    <img src="./Assets/five.jpeg" alt=""> 
+                    <img src="./Assets/six.jpeg" alt=""> 
+                    <img src="./Assets/seven.jpeg" alt=""> 
+                    <img src="./Assets/eight.jpeg" alt=""> 
+                </div>
+            </section>    
+            <section id="kidsworld">
+                <hr>
+                <div class="kids-wrapper">
+                    <img src="./Assets/10.jpeg" alt="">
+                    <img src="./Assets/11.jpeg" alt="">
+                    <img src="./Assets/12.jpeg" alt="">
+                    <img src="./Assets/01.jpeg" alt="">
+                    <img src="./Assets/02.jpeg" alt="">
+                    <img src="./Assets/03.jpeg" alt="">
+                    <img src="./Assets/04.jpeg" alt="">
+                    <img src="./Assets/05.jpeg" alt="">
+                    <img src="./Assets/06.jpeg" alt="">
+                    <img src="./Assets/07.jpeg" alt="">
+                    <img src="./Assets/08.jpeg" alt="">
+                    <img src="./Assets/09.jpeg" alt="">
+                </div>
+            </section>
+            <section id="upcoming">
+                <hr>
+                <div class="upcoming-wrapper">
+                    <img src="./Assets/nine.jpeg" alt=""> 
+                    <img src="./Assets/ten.jpeg" alt="">
+                    <img src="./Assets/eleven.jpeg" alt="">  
+                    <img src="./Assets/twelve.jpeg" alt="">  
+                    <img src="./Assets/thirteen.jpeg" alt=""> 
+                    <img src="./Assets/13.jpeg" alt="">
+                    <img src="./Assets/14.jpeg" alt="">
+                    <img src="./Assets/15.jpeg" alt="">
+                    <img src="./Assets/16.jpeg" alt=""> 
+                    <img src="./Assets/17.jpeg" alt="">
+                </div>
+            </section>
+            
+            <footer id="contact">
+                <hr>
+                <div class="contact">
+                    <div class="personal-contact">
+                        <i class='bx bx-phone'>+243-674-891</i>
+                        <i class='bx bxs-map'>Yaounde, Cameroon</i>
+                    </div>
+                    <div class="social-icons">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-tiktok'></i>
+                        <i class='bx bx-envelope'></i>
+                    </div>
+                </div>
+                <div class="copywrite"></div>
+            </footer>
+    </div>        
+    <script src="./Public/movieapp.js"></script>
+</body>
+</html>
