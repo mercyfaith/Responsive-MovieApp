@@ -129,16 +129,13 @@ a:hover::before{
 .sign-in-icon{
     font-size: 2rem;
 }
-.sign-in-icon:hover{
-    background-color: rgba(247, 107, 56, 0.3);
-}
 
 .sign-in-form{
     width: 100%;
     position: relative;
     z-index: 3;
     margin: 100px auto;
-     display: none;
+    display: none;
 
 }
 .form-wrapper{
@@ -158,7 +155,7 @@ a:hover::before{
 
   .form-wrapper div{
     background-color: #fff;
-    width: 250px;
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -390,7 +387,8 @@ hr{
     margin-right: -70px;
     margin-top: 10px;
  }
- .bx-x{
+
+  .bx-x{
     position: absolute;
     top: 50%;
     right: 3%;
